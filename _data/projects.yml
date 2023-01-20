@@ -1,15 +1,12 @@
 - name: Retail Management System
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   link:
-  description: Developed point of sale and staffing and inventory management interfaces, following a modified waterfall model of software development. (C++, C libraries, STL, CMake)
-Built unit testing system with BASH scripting to ensure completeness and reliability of product features. Wrote user requirements specification, logical and physical design, and testing plan. Delivered a satisfactory product and received an A+ in the course.
+  description: Developed point of sale and staffing and inventory management interfaces, following a modified waterfall model of software development. (C++, C libraries, STL, CMake) Built unit testing system with BASH scripting to ensure completeness and reliability of product features. Wrote user requirements specification, logical and physical design, and testing plan. Delivered a satisfactory product and received an A+ in the course.
 - name: Data Structure Diagram Generator
   link: https://github.com/awmc000/data-structure-diagrammer
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
   description: Reinforced in-class learning about data structures and algorithms by implementing functionality for an end user to draw diagrams of arrays, binary trees, and series of diagrams which demonstrate the use of Bubble Sort. (Java, Graphics2D, Maven)
-
 - name: Arduino Number Guessing Game
   link: https://github.com/awmc000/atmegahilo/blob/main/hilo.ino
   image: https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2016/09/ssd1306-oled-display-arduino.jpg?resize=750%2C412&quality=100&strip=all&ssl=1
-  description: Designed and completed a simple number guessing game using the Arduino Uno system, using serial communication for tests and debugging, I2C to control the display, and modelling the game itself as a finite state machine. Used both the physical Arduino and the wokwi.com Internet of Things simulation toolkit. (Arduino, C++, I2C, Wokwi)
-Wrote lean, performant code so that features such as progressive difficulty and the congratulatory message on completion did not have to be cut in order to preserve heap space for the display’s frame buffer.
+  description: Designed and completed a simple number guessing game using the Arduino Uno system, using serial communication for tests and debugging, I2C to control the display, and modelling the game itself as a finite state machine. Used both the physical Arduino and the wokwi.com Internet of Things simulation toolkit. (Arduino, C++, I2C, Wokwi) Wrote lean, performant code so that features such as progressive difficulty and the congratulatory message on completion did not have to be cut in order to preserve heap space for the display’s frame buffer.
