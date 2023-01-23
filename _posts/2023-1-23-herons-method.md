@@ -15,6 +15,8 @@ tags:
 > The basic idea is that if $x$ is an overestimate to the square root of a non-negative real number $S$ 
 > then $\frac{S}{x}$ will be an underestimate, or vice versa, and so the average of these 
 > two numbers may reasonably be expected to provide a better approximation. 
+
+
 ## The process
 (Also from Wikipedia.)
 1. Set an arbitrary starting number $x$.
@@ -23,8 +25,13 @@ tags:
 In my first solution, any natural number's square root can be computed.
 Any digits in the places after the decimal place will be printed if they exist, which is checked with the `floor()` function belonging to the C library's `math.h` header.
 ## My first solution, which takes a command line argument
+
+
 ### Source file
+
 In a file titled `square_root.c`:
+
+
 ```c
 /*
  * Heron's Method implementation
@@ -78,9 +85,15 @@ int main(int argc, char * argv[])
 
 	return 0;
 }
+
 ```
+
+
 ### Shell script for compiling
+
 In a file titled `build.sh`:
+
+
 ```bash
 #!/bin/bash
 
@@ -102,8 +115,10 @@ int square_root(int s);
 #endif
 
 ```
+
 ### Source file
 In a file titled `square_root.c`:
+
 ```c
 #define ITERATIONS 100
 
@@ -123,9 +138,12 @@ int square_root(int s)
 	return (int) x;
 
 }
+
 ```
+
 ### Test cases
 In a file titled `test_square_root.c`, which again, I did not modify or write:
+
 ```c
 #include "test-framework/unity.h"
 #include "square_root.h"
@@ -188,6 +206,7 @@ int main(void)
 }
 
 ```
+
 ## Conclusion
 This was an interesting although simple algorithm to learn and I look forward to adding more ancient algorithms to my collection.
 **Thank you for reading!** 
