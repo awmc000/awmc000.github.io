@@ -1,7 +1,7 @@
 ---
 title: My report on Newton's Method
 layout: post
-post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/SamplePost.png?token=AHMQUEPC4IFADOF5VG4QVN26Z64GG"
+post-image: "https://images.nationalgeographic.org/image/upload/v1638890068/EducationHub/photos/isaac-newton-who-he-was-why-google-apples-are-falling.jpg"
 description: A link to an investigation of this method for the reader to follow along and work through.
 tags:
 - math
