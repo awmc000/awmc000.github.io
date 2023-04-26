@@ -111,4 +111,30 @@ Here we set the threads and then start them!
 
 # Example debug output
 
-**[Going to add shortly.]**
+```
+➜  ~ wow
+ 2023-04-25 18:10:58,975 -DEBUG - Opening WOW
+archive Data\enUS\patch-enUS.MPQ opened
+archive Data\patch.MPQ opened
+archive Data\enUS\patch-enUS-2.MPQ opened
+archive Data\enUS\patch-enUS-3.MPQ opened
+archive Data\patch-2.MPQ opened
+archive Data\patch-3.MPQ opened
+archive Data\expansion.MPQ opened
+archive Data\lichking.MPQ opened
+archive Data\common.MPQ opened
+archive Data\common-2.MPQ opened
+archive Data\enUS\locale-enUS.MPQ opened
+archive Data\enUS\speech-enUS.MPQ opened
+archive Data\enUS\expansion-locale-enUS.MPQ opened
+archive Data\enUS\lichking-locale-enUS.MPQ opened
+archive Data\enUS\expansion-speech-enUS.MPQ opened
+archive Data\enUS\lichking-speech-enUS.MPQ opened
+ 2023-04-25 18:11:03,478 -DEBUG - waited 5 seconds
+ 2023-04-25 18:11:03,585 -DEBUG - Clicked the screen
+ 2023-04-25 18:11:07,464 -DEBUG - entered [username], hit tab, entered [password]
+ 2023-04-25 18:11:09,466 -DEBUG - waited 2 seconds
+ 2023-04-25 18:11:09,567 -DEBUG - pressed enter
+ 2023-04-25 18:11:23,195 -DEBUG - Quit WOW
+
+```
